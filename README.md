@@ -35,7 +35,7 @@ You can use <kbd>starter-kit-html.sh</kbd> script:
 sudo ./starter-kit-html.sh
 ```
 
-> **Note:** Before the start, make sure that you have *npm* and *nodeJS*
+> **Note:** Before the start, make sure that you have <a href="https://www.npmjs.com/" title="npm">npm</a> and <a href="https://nodejs.org/en/" title="NodeJS">NodeJS</a>
 
 
 > **Warning!** Look at the following lines in the starter-kit-html.sh: 
@@ -67,5 +67,13 @@ sublime ~/Documents/Projects/${NAME}/src
 ```
 > **Note:** I created something like a snippet from <a href="https://gist.github.com/artero/1236170" title="Title">this</a>
 
+You also specify which Gulp plugins to be installed:
+```
+#Gulp plugins
+npm install --save-dev gulp-sass
+npm install --save-dev gulp-plumber
+npm install --save-dev gulp-rename
+...
+```
 
-## Enjoy!
+
